@@ -1,0 +1,19 @@
+{
+  "browserSyncOptions" : {
+    "proxy": "localhost/wp/",
+    "notify": false
+  },
+  "browserSyncWatchFiles" : [
+    "./src/assets/css/*.min.css",
+    "./src/assets/js/*.min.js",
+    "./src/**/*.php"
+  ],
+  "paths" : {
+    "js": "./src/assets/js",
+    "css": "./src/assets/css",
+    "scss": "./src/src/scss",
+    "node": "./node_modules/",
+    "src": "./src/src/js",
+    "assets": "./src/assets"
+  }
+}
