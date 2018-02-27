@@ -2,9 +2,10 @@
   "name": "fictional-broccoli",
   "version": "1.0.0",
   "description": "A wordpress theme template",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/jc190/fictional-broccoli/issues"
   },
-  "homepage": "https://github.com/jc190/fictional-broccoli#readme"
+  "homepage": "https://github.com/jc190/fictional-broccoli#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
 }
